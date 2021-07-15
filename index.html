@@ -1,13 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Rolando dados</title>
 </head>
 <body>
-    <h1>Rolando dados</h1>
+    <header>
+        <h1>Rolando dados</h1> 
+    </header>
+    <main>
+        <button class="btn" id="addDados">Criar Dados</button>
+        <div id="box" class="caixa">
+            <button class="btn" id="btnMil">rodar 1000x</button>
+            <div class="diceBox" id="dadosBox">
+                <div class="dado" id="dado1">1
+                </div>
+                <div class="dado" id="dado2">1
+                </div>
+            </div>
+            <button class="btn" id="somar">Somar os 2</button>
+            <button class="btn" id="rodar">Rodar os 2</button>
+            <ol start="2" id="boxResult"></ol>
+        </div>
+        
+    </main> 
 
-    <script src="dice-roller.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

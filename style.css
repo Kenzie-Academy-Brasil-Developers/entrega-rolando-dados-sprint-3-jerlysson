@@ -1,0 +1,59 @@
+button, p {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+.btn{
+    width: 100px;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+div#box{
+    display: none;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 75vw;
+}
+
+.caixa{
+    text-align: center;
+    border: 2px solid black;
+}
+.diceBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boxResult{
+    padding: 0;
+    border: 2px solid black;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.dado{
+    font-weight: bold;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+
+    #boxResult{
+    padding: 20;
+    /* border: 2px solid black; */
+    }
+}
