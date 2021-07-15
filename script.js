@@ -60,7 +60,6 @@ const girarMil = () =>{
             if(soma === count[i][0]){
                 count[i][1]++
             }
-            console.log(count)
         }
     }
     for(let i = 0; i < count.length;i++){

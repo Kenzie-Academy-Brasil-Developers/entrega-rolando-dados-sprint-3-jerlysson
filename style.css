@@ -52,7 +52,7 @@ div#box{
     cursor: pointer;
 }
 
-@media screen and (max-width: 320px) {
+@media only screen and (max-width: 768px){
     body{
         background-color: aquamarine;
     }
