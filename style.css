@@ -30,6 +30,8 @@ div#box{
 }
 
 #boxResult{
+    flex-direction: column;
+    display: flex;
     padding: 0;
     border: 2px solid black;
     width: 80%;
