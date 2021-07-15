@@ -51,9 +51,11 @@ div#box{
 }
 
 @media screen and (max-width: 320px) {
-
+    body{
+        background-color: aquamarine;
+    }
     #boxResult{
     padding: 20;
-    /* border: 2px solid black; */
+    border: 0;
     }
 }
